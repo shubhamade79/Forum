@@ -44,7 +44,7 @@ echo '<nav class="navbar navbar-expand-lg navbar-light bg-light">
     }
       
     else{ 
-      echo '<form class="form-inline my-2 my-lg-0">
+      echo '<form class="form-inline my-2 my-lg-0" method="get" action="search.php">
         <input class="form-control mr-sm-2" name="search" type="search" action="search.php" placeholder="Search" aria-label="Search">
         <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
         </form>
